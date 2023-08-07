@@ -1,14 +1,13 @@
 from typing import List
 
-from bentoml import BentoService, api, artifacts
-from bentoml.adapters import JsonInput
-from bentoml.types import JsonSerializable
-from bentoml.service import BentoServiceArtifact
+from bentolite import BentoService, api, artifacts
+from bentolite.adapters import JsonInput
+from bentolite.types import JsonSerializable
+from bentolite.service import BentoServiceArtifact
 
 import pickle
 import os
 import shutil
-import collections
 import tempfile
 import subprocess
 import csv
